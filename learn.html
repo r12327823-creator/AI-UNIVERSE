@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn | Era of AI</title>
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- WebGL Background -->
+    <canvas id="webgl-canvas"></canvas>
+
+    <!-- UI Overlay container -->
+    <div class="ui-layer">
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html" style="text-decoration: none; color: inherit;">
+                    <span class="highlight">Era</span> of AI
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="about.html" class="nav-link">About</a>
+                <a href="learn.html" class="nav-link active">Learn</a>
+                <a href="earn.html" class="nav-link">Earn</a>
+                <button class="join-nav-btn">Join Us</button>
+            </div>
+        </nav>
+
+        <!-- Learn Page Content -->
+        <main class="inner-page-section">
+            <div class="inner-page-header">
+                <h1>Learning <span class="highlight">Tracks</span></h1>
+                <p>Master the tools defining the next decade. Follow our curated paths to level up your technological
+                    expertise.</p>
+            </div>
+
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>🤖 Machine Learning</h3>
+                    <p>Build the foundations of Artificial Intelligence.</p>
+                    <ul>
+                        <li>Python for Data Science</li>
+                        <li>Neural Networks & PyTorch</li>
+                        <li>LLM Fine-Tuning</li>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+                    <h3>💻 Web3 & Blockchain</h3>
+                    <p>Develop decentralized applications.</p>
+                    <ul>
+                        <li>Solidity Smart Contracts</li>
+                        <li>DApp Architecture</li>
+                        <li>Tokenomics Design</li>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+                    <h3>⚡ AI Engineering</h3>
+                    <p>Bridge the gap between models and products.</p>
+                    <ul>
+                        <li>Prompt Engineering</li>
+                        <li>RAG Implementation</li>
+                        <li>AI Agent Ecosystems</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 Era of AI Community. Elevate together.</p>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
